@@ -1,25 +1,21 @@
-import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
-import pdf from "../images/resume.pdf"
+import React from 'react';
+
+import res from "../images/resume1.jpg"
+import res1 from "../images/resume2.jpg"
+
+
 
 function Resume() {
 
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
 
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-      }
+
 
     return(
-        <div>
+        <div >
             <h1 className="text-black text-center italic text-4xl font-bold  bg-gray-100">Resume</h1>
-            <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
-            <Page pageNumber={pageNumber} />
-            </Document>
-            <p>
-            Page {pageNumber} of {numPages}
-            </p>
+           
+            <img src={res} className="text-center"/>
+            <img src={res1} className="text-center"/>
             
         </div>
     )
