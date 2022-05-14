@@ -5,6 +5,7 @@ import Resume from "./components/Resume"
 import Home from "./components/Home"
 import Projects from "./components/Projects"
 import Blogs from "./components/Blogs"
+import PrintComponent from './components/PrintComponent.js'
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         <Route exact path="/blogs">
           <Blogs/>
         </Route>
+        <Route exact path="/print">
+            <PrintComponent />
+          </Route>
       </Switch>
     </div>
   );
