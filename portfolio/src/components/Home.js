@@ -9,12 +9,12 @@ function Home () {
             <div className=" w-64 h-48 absolute bottom-0 right-20 ">
                 <h1 className="italic underline text-2xl text-white">Contact Information</h1>
                 <p>
-                <a href="http://www.linkedin.com/in/tyler-gubser" rel="noreferrer" className=" text-1xl text-white hover:text-cyan-300">
+                <a href="http://www.linkedin.com/in/tyler-gubser" rel="noreferrer" className=" text-1xl text-white hover:text-red-400">
                     LinkedIn
                 </a>
                 </p>
                 <p>
-                <a href="https://github.com/tylergubser" rel="noreferrer" className=" text-1xl text-white hover:text-cyan-300">
+                <a href="https://github.com/tylergubser" rel="noreferrer" className=" text-1xl text-white hover:text-red-400">
                     GitHub
                 </a>
                 </p>
