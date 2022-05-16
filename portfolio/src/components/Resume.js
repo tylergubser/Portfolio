@@ -12,13 +12,15 @@ function Resume() {
 
 
     return(
-        <div >
+        <div className="justify-items-center" >
             <h1 className="text-black text-center italic text-4xl font-bold  bg-gray-100">Resume</h1>
-            <div>
-            <NavLink className="text-red-500 text-2xl font-bold"to="/print">Print Resume</NavLink>
-        </div>
-            <img src={res} className="text-center"/>
-            <img src={res1} className="text-center"/>
+            <div className="">
+            <NavLink className="text-red-500 text-2xl  font-bold"to="/print">Print Resume</NavLink>
+            </div>
+            <div className="justify-items-center">
+            <img src={res} alt="resume" className=""/>
+            <img src={res1} alt="resume" className=""/>
+            </div>
             
         </div>
     )
