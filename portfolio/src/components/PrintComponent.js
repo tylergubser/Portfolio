@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import ReactToPrint from "react-to-print";
 import ComponentToPrint from "./ComponentToPrint";
 function PrintComponent() {
@@ -12,9 +12,7 @@ function PrintComponent() {
             <div className="">
                 {/* button to trigger printing of target component */}
                 {/* component to be printed */}
-                <div >
-                    <ComponentToPrint ref={(el) => (componentRef = el)} />
-                </div>
+               
                 <footer className="flex flex-col justify-center items-center absolute  w-full bg-inherit">
                     <div className="text-center">
                         <div className="flex flex-col justify-center items-center">
@@ -23,6 +21,9 @@ function PrintComponent() {
                                 content={() => componentRef}
                             />
                         </div>
+                        <div >
+                    <ComponentToPrint ref={(el) => (componentRef = el)} />
+                </div>
                     </div>
                 </footer>
             </div>

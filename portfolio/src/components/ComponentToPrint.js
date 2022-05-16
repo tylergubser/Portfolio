@@ -8,8 +8,12 @@ const ComponentToPrint = React.forwardRef((props, ref) => {
 
     return (
         <div ref={ref}>
-            <img src={res} alt="Res 1"/>
-            <img src={res1} alt="Res 2"/>
+            <div>
+                <div className="flex-col flex items-center">
+                    <img src={res} alt="Res 1"/>
+                    <img src={res1} alt="Res 2"/>
+                </div>
+            </div>
         </div>)
 })
 
