@@ -1,8 +1,9 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
-import res from "../images/resume1.jpg"
-import res1 from "../images/resume2.jpg"
+import res from "../images/resume1.png"
+import res1 from "../images/resume2.png"
+import res2 from "../images/resume3.png"
 
 
 
@@ -20,6 +21,7 @@ function Resume() {
             <div className="flex-col flex items-center">
             <img src={res} alt="resume" className=""/>
             <img src={res1} alt="resume" className=""/>
+            <img src={res2} alt="resume" className=""/>
             </div>
             
         </div>
