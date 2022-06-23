@@ -9,7 +9,7 @@ return(
 <div  className="flex items-center justify-between space-around h-16 max-w-screen-xl px-4 mx-auto ">
     {/* <li className="relative"> */}
     <div className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-red-400 hover:bg-gradient-to-r from-cyan-500 to-blue-500 transition duration-300 ease-in-out ">
-        <NavLink to="/">Tyler Gubser</NavLink>
+        <NavLink to="/">Contact Info</NavLink>
     </div>
     {/* </li> */}
     {/* <li className="relative"> */}
