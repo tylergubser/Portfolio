@@ -6,7 +6,7 @@ import blog3 from '../images/blog3.png'
 function Blogs(){
 
 return(
-    <div className="flex-col  w-screen h-screen bg-gradient-to-r from-cyan-500 to-blue-500 object-center">
+    <div className="flex-col  w-screen h-screen  bg-gradient-to-r from-cyan-500 to-blue-500 object-center">
         <h1 className="text-black text-center italic text-4xl font-bold  bg-gray-100">Blog Posts</h1>
         <div className="flex flex-row grid grid-cols-2 pt-10  ">
             
