@@ -8,7 +8,7 @@ function Projects() {
 
 
     return(
-        <div className=" w-screen h-screen bg-gradient-to-r from-cyan-500 to-blue-500 ">
+        <div className=" w-full h-full bg-gradient-to-r from-cyan-500 to-blue-500 ">
             <h1 className="text-black text-center italic text-4xl font-bold  bg-gray-100">Projects</h1>
           <div className="flex flex-row grid grid-cols-2">
                 <div className="w-96 h-80 text-center mx-auto">
